@@ -1,6 +1,9 @@
 # Covid19-Tracker-Android
 Covid19 Tracker Android App using MVVM architecture
 
+### Download
+Get the latest APK from [here](https://github.com/ashar-7/Covid19-Tracker-Android/releases)
+
 ### Libraries used
 * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
