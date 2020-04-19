@@ -1,5 +1,5 @@
 # Covid19-Tracker-Android
-Covid19 Tracker Android App using MVVM architecture
+Covid19 Tracker Android App using MVVM architecture with Dark Mode
 
 ### Download
 Get the latest APK from [here](https://github.com/ashar-7/Covid19-Tracker-Android/releases)
