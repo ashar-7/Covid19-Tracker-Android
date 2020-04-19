@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Covid19 Tracker</string>
+
+    <string name="confirmed">Confirmed</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+
+    <string name="todayTemplate">+%1s today</string>
+    <string name="lastUpdated">Last updated: %s</string>
+
+    <string name="error_msg">Something went wrong</string>
+    <string name="retry">Retry</string>
+
+    <string name="mapbox_map_url">YOUR-MAPBOX-MAP-URL</string>
+    <string name="mapbox_access_token">YOUR-MAPBOX-ACCESS-TOKEN</string>
+
+    <string name="filter_cases">Filter</string>
+    <string name="cases_filter_msg">Filter by number of confirmed cases</string>
+
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
+
+    <string name="night_mode">Night Mode</string>
+    <string name="night_mode_prefs_key">night_mode</string>
+</resources>

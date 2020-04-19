@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.covid19_android.ui.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.covid19_android.ui.MapFragment"
+        android:label="Map View" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.covid19_android.ui.SettingsFragment"
+        android:label="Settings" />
+</navigation>
