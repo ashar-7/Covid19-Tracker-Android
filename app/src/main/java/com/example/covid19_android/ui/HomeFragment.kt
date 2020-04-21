@@ -15,7 +15,6 @@ import com.example.covid19_android.formatNumber
 import com.example.covid19_android.model.CasesData
 import com.example.covid19_android.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.fragment_home.*
-import java.text.NumberFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -48,8 +47,6 @@ class HomeFragment: Fragment(), AdapterView.OnItemSelectedListener {
                 }
 
                 is Resource.Success -> {
-                    val data = ArrayList(it.data)
-                    data.add(0, null)
                     val adapter = CountriesArrayAdapter(
                         requireContext(),
                         ArrayList(it.data)

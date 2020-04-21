@@ -56,7 +56,7 @@ class CountriesArrayAdapter(
     }
 
     override fun getCount(): Int {
-        return list.size
+        return list.size + 1
     }
 
     override fun getItem(position: Int): String {
